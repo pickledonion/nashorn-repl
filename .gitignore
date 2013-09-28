@@ -1,0 +1,6 @@
+bower_components/
+tags
+*.log
+.projectile
+.#*
+.DS_Store

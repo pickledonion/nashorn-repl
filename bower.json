@@ -1,0 +1,14 @@
+{
+  "name": "nashorn-repl",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "underscore": "*",
+    "underscore-contrib": "git://github.com/documentcloud/underscore-contrib#2c3bfc952217b4825f44c6cd293f6eac9030b8e4"
+  },
+  "main": "lib/main.js"
+}
