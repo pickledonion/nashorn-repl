@@ -7,7 +7,6 @@
 
   describe ('util.getTypes', function () {
 
-
     var ary = [
       ['CharArray','char[]'],
       'java.io.File',

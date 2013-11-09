@@ -37,12 +37,12 @@ describe ("pretty", function () {
 
   it ("can pp a java class", function () {
     var c = javafx.scene.control.Button;
-    expect(pp(c)).toBe('\'[JavaClass javafx.scene.control.Button]\'');
+    expect(pp(c)).toBe('\'J:[JavaClass javafx.scene.control.Button]\'');
   });
 
   it ("can pp a list of a java class", function () {
     var c = javafx.scene.control.Button;
-    expect(pp([c])).toBe('[ \'[JavaClass javafx.scene.control.Button]\' ]');
+    expect(pp([c])).toBe('[ \'J:[JavaClass javafx.scene.control.Button]\' ]');
   });
 
   it ("can pp an obj of java instance", function () {
@@ -59,7 +59,7 @@ describe ("pretty", function () {
 
   it ('can pp javafx.application.Platform.runLater', function () {
     var a = javafx.application.Platform.runLater;
-    expect(pp(a)).toBe('\'[jdk.internal.dynalink.beans.SimpleDynamicMethod void javafx.application.Platform.runLater(Runnable)]\'');
+    expect(pp(a)).toBe('\'J:[jdk.internal.dynalink.beans.SimpleDynamicMethod void javafx.application.Platform.runLater(Runnable)]\'');
   });
 
 });
