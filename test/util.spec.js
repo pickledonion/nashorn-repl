@@ -64,13 +64,13 @@
       expect(util.getTypes(ary, [root]).File.class.name).toBe('java.io.File');
     });
 
-    it( 'turns com.sun.jdi into package', function () {
-      expect(util.getTypes(ary, [root]).jdi + '').toBe('[object JavaPackage]');
-    });
+//     it( 'turns com.sun.jdi into package', function () {
+//       expect(util.getTypes(ary, [root]).jdi + '').toBe('[object JavaPackage]');
+//     });
 
-    it( 'turns jdi.Bootstrap into class', function () {
-      expect(util.getTypes(ary, [root]).Bootstrap.class.name).toBe('com.sun.jdi.Bootstrap');
-    });
+//    it( 'turns jdi.Bootstrap into class', function () {
+//      expect(util.getTypes(ary, [root]).Bootstrap.class.name).toBe('com.sun.jdi.Bootstrap');
+//    });
 
 
   });
